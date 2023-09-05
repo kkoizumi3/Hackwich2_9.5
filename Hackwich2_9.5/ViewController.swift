@@ -7,7 +7,10 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
+    //Part 8: where declare three string var
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +20,6 @@ class ViewController: UIViewController {
 
     @IBAction func pressMeButtonPressed(_ sender: Any)
     {
-    
         print("yippee")
         
     }
