@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lr-Ur-QJV">
-                                <rect key="frame" x="136" y="507" width="122" height="35"/>
+                                <rect key="frame" x="136" y="222" width="122" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Press Button"/>
@@ -26,12 +26,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uN-dA-S1f">
-                                <rect key="frame" x="161" y="393" width="70" height="35"/>
+                                <rect key="frame" x="161" y="308" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Part 8"/>
                                 <connections>
                                     <action selector="partEightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="80T-uG-QlQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKG-Oa-yRa">
+                                <rect key="frame" x="140" y="438" width="115" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Segue Push"/>
+                                <connections>
+                                    <segue destination="uEW-UB-bZj" kind="show" id="f8b-cr-GEw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,6 +51,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="100" y="4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="py9-zD-xgm">
+            <objects>
+                <viewController id="uEW-UB-bZj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9eg-y7-oeT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aq2-ya-OWb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6t1-Hk-f30"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VCH-H6-9Oh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909" y="4"/>
         </scene>
     </scenes>
     <resources>
