@@ -34,14 +34,11 @@
                                     <action selector="partEightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="80T-uG-QlQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKG-Oa-yRa">
-                                <rect key="frame" x="140" y="467" width="115" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7o-Tf-G1C">
+                                <rect key="frame" x="141" y="560" width="115" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Segue Push"/>
-                                <connections>
-                                    <segue destination="uEW-UB-bZj" kind="show" id="f8b-cr-GEw"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -57,7 +54,7 @@
             <objects>
                 <viewController id="uEW-UB-bZj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9eg-y7-oeT">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="aq2-ya-OWb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
